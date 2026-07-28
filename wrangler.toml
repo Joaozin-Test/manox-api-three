@@ -1,4 +1,4 @@
-name = "manox-api"
+name = "manox-api-three"
 main = "server.js"
 compatibility_date = "2026-07-28"
 
