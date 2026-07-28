@@ -4,6 +4,6 @@ compatibility_date = "2026-07-28"
 
 [[kv_namespaces]]
 binding = "MANOX_KV"
-id = "7295a753378540acba1bd10107c88334"
+id = "ea24ae2251394cba98664bc8c13d4096"
 
 [vars]
