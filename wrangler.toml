@@ -1,13 +1,9 @@
 name = "manox-api"
-main = "server.js" # Mude para index.js se o seu arquivo do worker tiver esse nome
+main = "server.js"
 compatibility_date = "2026-07-13"
 
-# Vinculação do Banco de Dados KV
-# Substitua o id abaixo pelo ID real que a Cloudflare gerar para você
 [[kv_namespaces]]
 binding = "MANOX_KV"
-id = "4e7f4d54535d453f9b2fc3f3d3144d51"
+id = "7295a753378540acba1bd10107c88334"
 
-# Variáveis de ambiente para desenvolvimento local
 [vars]
-ADMIN_API_KEY = "mX9!pQ2#vL7@aK4$zR8"
