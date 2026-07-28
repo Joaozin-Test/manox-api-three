@@ -1,6 +1,6 @@
 name = "manox-api"
 main = "server.js"
-compatibility_date = "2026-07-13"
+compatibility_date = "2026-07-28"
 
 [[kv_namespaces]]
 binding = "MANOX_KV"
