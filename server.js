@@ -25,7 +25,7 @@ export default {
 
         // Middleware de Autenticação (Chave Admin)
         const checkAdminKey = async () => {
-           const adminKey = await env.MANOX_KV.get("ADMIN_API_KEY");
+           const adminKey = env.ADMIN_API_KEY;
            const clientKey = request.headers.get("x-manox-key");
            return adminKey && clientKey === adminKey;
         };
